@@ -3,12 +3,12 @@ version: "2.0"
 
 services:
   web:
-    image: tombeynon/akash-hello-world:release-v0.1.1
+    image: avolon42x/d3akash.cloud:release-v0.1
     expose:
       - port: 80
         as: 80
         accept:
-          - akashhw.tombeynon.co.uk
+          - www.d3akash.cloud
         to:
           - global: true
 
@@ -17,18 +17,18 @@ profiles:
     web:
       resources:
         cpu:
-          units: 0.5
+          units: 0.3
         memory:
-          size: 512Mi
+          size: 128Mi
         storage:
-          size: 512Mi
+          size: 50Mi
   placement:
     dcloud:
       attributes:
-        host: akash
+        host: d3akash.cloud
       signedBy:
         anyOf:
-          - "akash1365yvmc4s7awdyj3n2sav7xfx76adc6dnmlx63"
+          
       pricing:
         web:
           denom: uakt
