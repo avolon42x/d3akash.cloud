@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   web:
-    image: avolon42x/d3akash.cloud:release-v0.1.1
+    image: avolon42x/d3akash.cloud:release-v0.1.8
     expose:
       - port: 80
         as: 80
@@ -17,7 +17,7 @@ profiles:
     web:
       resources:
         cpu:
-          units: 0.3
+          units: 0.2
         memory:
           size: 256Mi
         storage:
@@ -25,14 +25,15 @@ profiles:
   placement:
     dcloud:
       attributes:
-        host: d3akash.cloud
+        host: akash
+        tier: community
       signedBy:
-        anyOf:
+        anyOf: "akash1nxq8gmsw2vlz3m68qvyvcf3kh6q269ajvqw6y0"
           
       pricing:
         web:
           denom: uakt
-          amount: 1
+          amount: 100
 
 deployment:
   web:
