@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   web:
-    image: avolon42x/d3akash.cloud:release-v0.1.8
+    image: avolon42x/d3akash.cloud:release-v0.1.9
     expose:
       - port: 80
         as: 80
