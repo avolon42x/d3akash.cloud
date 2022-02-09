@@ -19,9 +19,9 @@ profiles:
         cpu:
           units: 0.2
         memory:
-          size: 256Mi
+          size: 64Mi
         storage:
-          size: 256Mi
+          size: 128Mi
   placement:
     dcloud:
       attributes:
