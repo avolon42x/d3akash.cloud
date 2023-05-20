@@ -1,0 +1,67 @@
+### Keybase proof
+
+I hereby claim:
+
+  * I am avolon42x on github.
+  * I am d3akash (https://keybase.io/d3akash) on keybase.
+  * I have a public key ASBEd8VwXTURWvVD69_XGgnV5NnozQde3f_z2Lr-9P89Cwo
+
+To claim this, I am signing this object:
+
+```json
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204477c5705d35115af543ebdfd71a09d5e4d9e8cd075eddfff3d8bafef4ff3d0b0a",
+      "host": "keybase.io",
+      "kid": "01204477c5705d35115af543ebdfd71a09d5e4d9e8cd075eddfff3d8bafef4ff3d0b0a",
+      "uid": "1f715c7022ebded31af4a0b26318dc19",
+      "username": "d3akash"
+    },
+    "merkle_root": {
+      "ctime": 1684567555,
+      "hash": "7885a7b7348cc3bb6fabd90eb83087e8092d8b0892cdd0b035e77d80c72520ba292dc7bda0ddf77e96a5923cb0af98d8e1040c4603b7d7246b5a49ba7aaaddea",
+      "hash_meta": "abe88e1f811fe0c192da3835b92dcad3a9dbf3f7265262706abdbb5827d5d668",
+      "seqno": 24474300
+    },
+    "service": {
+      "entropy": "rX1niGrRLOVRY/YlU4vQYb6F",
+      "name": "github",
+      "username": "avolon42x"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.4"
+  },
+  "ctime": 1684567561,
+  "expire_in": 504576000,
+  "prev": "6aa7e71a365467c318e359f538c96c7e468978ee586ab8d4f2bec400f3f59e50",
+  "seqno": 6,
+  "tag": "signature"
+}
+```
+
+with the key [ASBEd8VwXTURWvVD69_XGgnV5NnozQde3f_z2Lr-9P89Cwo](https://keybase.io/d3akash), yielding the signature:
+
+```
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRHfFcF01EVr1Q+vf1xoJ1eTZ6M0HXt3/89i6/vT/PQsKp3BheWxvYWTESpcCBsQgaqfnGjZUZ8MY41n1OMlsfkaJeO5YarjU8r7EAPP1nlDEIMfxy0razD5ySSI6JUC67afEDNmkd6eCHuQB9DQdYHrEAgHCo3NpZ8RAw5m+5mb2m4IOKCGjcsv4oSYtLscdRhqAgs7wkUuc73xfs6Z/zOBfYZl44hHUAJaPeWu3m3R8pT5hQOhc1bkVCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBS6icWZB1B/gTqOzyomMTIJvIqeB7GpP/Hz3DPPF6iMo3RhZ80CAqd2ZXJzaW9uAQ==
+
+```
+
+And finally, I am proving ownership of the github account by posting this as a gist.
+
+### My publicly-auditable identity:
+
+https://keybase.io/d3akash
+
+### From the command line:
+
+Consider the [keybase command line program](https://keybase.io/download).
+
+```bash
+# look me up
+keybase id d3akash
+```
